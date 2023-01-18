@@ -1,0 +1,20 @@
+import React from 'react';
+import { Outlet} from 'react-router-dom';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+
+
+const WebLayOut = () => {
+    return (
+        <div>
+            {/* WebLayOut */}
+            <Header/>
+            <Outlet />
+            <Footer/>
+
+          
+        </div>
+    );
+}
+
+export default WebLayOut;

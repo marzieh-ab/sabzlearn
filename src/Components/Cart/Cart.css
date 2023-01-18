@@ -1,0 +1,95 @@
+.baskets-cart{
+   
+    width: 650px;
+    margin:  40px auto;
+   
+   
+   
+    padding: 10px;
+    background-color: #fff;
+    color:#000;
+    border:1px solid  #ccc
+    
+
+
+}
+.baskets-cart .basket-cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+
+}
+
+.baskets-cart .basket-cart-item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.baskets-cart .basket-cart-item .title{
+    font-size: 12px;
+
+}
+.baskets-cart .basket-cart-item .price,
+.baskets-cart .basket-cart-item .count,
+.baskets-cart .basket-cart-item .total-price{
+    font-size: 12px;
+
+}
+.baskets-cart .basket-cart-item .close-icon{
+    cursor: pointer;
+}
+
+.empty-basket{
+
+    width: 650px;
+    height: 100px;
+    background-color:red ;
+    color:#fff;
+    margin: 40px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.baskets-cart .basket-cart-item .select-count .increse,
+.baskets-cart .basket-cart-item .select-count .decrise{
+    width: 20px;
+    height: 20px;
+    background-color: #a2a8aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 5px 0;
+    cursor: pointer;
+
+
+
+}
+
+.final-price{
+    position: relative;
+
+
+}
+
+.final-price .final{
+    position: absolute;
+    left:400px;
+    padding: 8px 10px;
+    color: #fff;
+    background-color: #43c67a;
+    font-size: 15px;
+    border-radius: 5px;
+    
+    border: none;
+    outline: none;
+}

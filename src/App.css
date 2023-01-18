@@ -1,0 +1,13 @@
+.main {
+    flex: 1;
+    padding: 20px;
+    padding-right: 280px;
+    background-color: red;
+
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    background-color: red; */
+   
+}

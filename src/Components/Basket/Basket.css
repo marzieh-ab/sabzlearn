@@ -1,0 +1,50 @@
+.baskets{
+    width: 300px;
+    height: auto;
+    background-color: red;
+    position: absolute;
+    top: 37px;
+    right: -26px;
+    padding: 10px;
+    background-color: #fff;
+    color:#000;
+    border:1px solid  #ccc;
+    visibility: hidden;
+    transition: 0.4s;
+  
+    
+
+
+    
+
+
+}
+
+.baskets:hover{
+    visibility: visible;
+
+}
+.baskets .basket-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+
+}
+
+.baskets .basket-item  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.baskets .basket-item .title{
+    font-size: 12px;
+
+}
+.baskets .basket-item .price,.baskets .basket-item .count{
+    font-size: 12px;
+
+}

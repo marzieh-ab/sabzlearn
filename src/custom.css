@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+
+@font-face {
+    font-family: 'vazir';
+    src: url('./fonts/number/vazir.eot') format('eot');
+    src : url('./fonts/number/vazir.ttf') format('truetype'),
+    url('./fonts/number/vazir.woff') format('woff');
+}
+
+:root {
+    --white: #ffffff;
+    --white-50: #f0f0f0;
+    --blue: #471AAA;
+}
+
+body {
+    background-color: var(--white-50);
+    direction: rtl;
+    font-family: 'vazir' !important;
+    box-sizing: border-box;
+
+   
+
+    
+}
+input{
+    font-family: "vazir";
+}
+
+
+
+

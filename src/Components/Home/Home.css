@@ -1,0 +1,147 @@
+.landing{
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 20px;
+    /* background: url('../../../public/images/background_landing.jfif' ) no-repeat center center ; */
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../../public/images/background_landing.jfif) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    text-align: center;
+    padding: 9rem 0;
+    
+}
+.landing h1{
+    margin: 40px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.landing p{
+    font-size: 20px;
+
+}
+.landing .landing-search{
+    width: 700px;
+    position: relative;
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.landing .landing-search input{
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+  
+    border:none;
+    outline: none;
+
+}
+
+.landing .landing-search button{
+    position: absolute;
+    left:24px;
+    top:10px;
+    background-color:#2bce56 ;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.landing .landing-search button .icon-search{
+    color: #fff;
+    font-size: 20px;
+
+
+}
+
+.landing .landing-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    margin: 40px auto;
+
+}
+
+.landing .landing-count .landing-count-item{
+    flex-basis: 33%;
+    
+}
+
+.landing .landing-count .landing-count-item  >span{
+    font-weight: bold;
+
+}
+.landing .landing-count .landing-count-item >p{
+    font-size: 16px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+/* END LANDING */
+
+/* START COURSERS*/
+.courses{
+    width: 100%;
+    margin-top: 100px;
+
+
+}
+
+.courses .courses-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.courses .courses-content .courses-content-item{
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+   
+    background-color: #fff;
+    box-shadow: 0 0 19px rgb(168 172 185 / 30%);
+    height: 300px;
+    overflow: hidden;
+   
+
+}
+.courses .courses-content .courses-content-item img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  
+}
+
+.courses .courses-content .courses-content-item .category{
+    width: 60%;
+    background-color: #2bce56;
+    color:#fff;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 12px;
+    padding: 8px;
+
+}
+.courses .courses-content .courses-content-item  .title{
+    margin: 10px 0;
+}
+.courses .courses-content .courses-content-item .price{
+    color:#2bce56 
+
+}
+
+/* END COURSES */
+

@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    direction: rtl;
+    font-family: 'vazir';
+}
+
+ul{
+    list-style: none;
+}

@@ -1,0 +1,206 @@
+.frontend{
+    width: 100%;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+}
+.frontend-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.2rem;
+    box-shadow: 0 0 13px 1px rgb(70 72 77 / 8%);
+    border-radius: 0.5rem;
+    border: 0.1rem solid #f2f2f2;
+    background-color: #fff;
+
+}
+.frontend-top .frontend-top-right.frontend-top-left{
+    flex-basis: 50%;
+}
+
+.frontend-top .frontend-top-right{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.frontend-top .frontend-top-right .icon{
+    background-color: #1e83f0;
+    width: 36px;
+    height: 36px;
+    margin: 0 10px;
+
+}
+
+.frontend-top .frontend-top-right .selection{
+
+    cursor: pointer;
+    position: relative;
+    width: 230px;
+
+}
+
+
+
+.frontend-top .frontend-top-right .selection select{
+    display: flex;
+    align-items: center;
+    width: inherit;
+    
+    border-radius: 0.3rem;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    color: #7d7e7f;
+    transition: all 400ms ease;
+    font-size: 14px;
+    outline: none;
+    font-family: 'vazir';
+    /* background-color: #1e83f0; */
+    color:#000
+
+}
+.frontend-top .frontend-top-right .selection select option{
+    background-color: #fff;
+    color:#000
+}
+
+.frontend-top .frontend-top-right .selection select:hover{
+    background-color: #1e83f0;
+    color:#fff;
+    width: 100%;
+}
+/* .frontend-top .frontend-top-right .selection:hover span{
+    background-color: #1e83f0;
+    color:#fff
+} */
+/* .frontend-top .frontend-top-right .selection ul{
+
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 6px rgb(0 0 0 / 20%);
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 0.3rem solid var(--primary-color);
+    border-radius: 0 0 0.3rem 0.3rem;
+    transition: all 400ms ease;
+    z-index: 9999;
+
+}
+
+.frontend-top .frontend-top-right .selection:hover ul{
+    opacity: 1;
+    visibility: visible;
+
+}
+.frontend-top .frontend-top-right .selection ul li{
+    font-size: 15px;
+    margin: 10px 0;
+} */
+/* .frontend-top .frontend-top-right .selection ul:hover li{
+    background-color: #f0f0f0
+    
+} */
+
+.frontend-top-left{
+    position: relative;
+    width: 300px;
+    
+}
+
+.frontend-top-left form{
+    width: 100%;
+}
+.frontend-top-left form input{
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.3rem;
+    font-size: 13px;
+    color:#7d7e7f
+}
+
+.frontend-top-left .search-icon{
+    position: absolute;
+    top: 10px;
+    left: 57px;
+    color: #7d7e7f;
+    font-size: 20px;
+    cursor: pointer
+
+}
+
+.frontend .frontend-content{
+    margin-top: 40px;
+}
+
+.frontend .frontend-content .frontend-courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.link-route{
+    /* text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%; */
+
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0 19px rgb(168 172 185 / 30%);
+    height: 300px;
+    overflow: hidden;
+   
+}
+.frontend .frontend-content .frontend-courses  .link-route .frontend-course{
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0 19px rgb(168 172 185 / 30%);
+    height: 300px;
+    overflow: hidden;
+}
+
+.frontend .frontend-content .frontend-courses .link-route .frontend-course img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+
+}
+
+.frontend .frontend-content .frontend-courses .link-route .frontend-course .category{
+    width: 60%;
+    background-color: #2bce56;
+    color:#fff;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 12px;
+    padding: 8px;
+
+}
+.frontend .frontend-content .frontend-courses .link-route .frontend-course .title{
+    margin: 10px 0;
+
+}
+
+.frontend .frontend-content .frontend-courses  .link-route .frontend-course .price{
+    color:#2bce56 
+
+}
+
+
+
+

@@ -1,0 +1,282 @@
+.header{
+    width: 100%;
+  
+
+}
+
+.header-top{
+    min-height: 30px;
+    background-color: #f2f5fa;
+
+}
+
+.container{
+   
+    /* background-color: tomato; */
+    max-width: 1080px !important;
+    /* margin: auto; */
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto; */
+
+
+
+}
+.row{
+    display: flex;
+}
+
+.row .nav{
+    flex-basis: 60%;
+}
+ .row .nav .nav-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+ }
+ .row .nav .nav-header li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8em;
+    margin: 0 10px;
+    color: #7f8187;
+ }
+
+.row .logo{
+    flex-basis: 27%;
+    text-align: end;
+
+    
+}
+
+.row .logo span{
+    font-size: 16px;
+    /* text-align: right; */
+    color: #6d6d6d;
+    font-weight: 900;
+}
+
+.header-botton{
+     height: 62px;
+     margin-top: 10px;
+     /* display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%; */
+}
+
+.header-botton .logo{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  
+   
+}
+.header-botton .logo a{
+    display: block
+
+}
+
+
+.header-botton .logo img{
+    width: 70px;
+    height: 70px;
+  
+}
+.header-botton .nav{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-botton .nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* .header-botton .nav ul li{
+    margin: 0 10px;
+   
+} */
+
+.header-botton .nav ul .main-header a{
+    text-decoration: none;
+    color: #7f8187;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header-botton .nav .submenunav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.header-botton .nav .submenunav .submenunavicon{
+    color: #979494 ;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-right: 5px;
+}
+
+.header-botton .nav .main-header{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 1rem;
+    position: relative
+}
+
+.header-botton .nav ul .main-header .drop-down{
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%);
+    border-radius: 0.5rem;
+    width: 20rem;
+    z-index: 1;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+
+.header-botton .nav ul .main-header .drop-down li{
+    margin: 5px 0;
+    display: block;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    color: #000;
+    transition: all 400ms ease;
+    
+}
+
+.header-botton .nav ul .main-header:hover .drop-down{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.header-botton .user{
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.header-botton .user {
+    text-decoration: none;
+}
+.header-botton .user  span{
+    padding: 8px 10px;
+    color: #fff;
+    background-color:#43c67a ;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+   
+}
+
+.header-botton .user  .logout{
+    padding: 8px 10px;
+    color: #fff;
+    background-color:#43c67a ;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+
+.header-botton .user .username span  svg{
+    margin-right: 5px;
+   
+
+}
+
+.header-botton .user .basket{
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    position: relative;
+
+}
+
+
+.header-botton .user .basket span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.header-botton .user .basket span:hover  .baskets{
+    visibility: visible;
+
+}
+.header-botton .user .basket span img{
+    width: 20px;
+    height: 20px;
+}
+
+.basket-image{
+    position: relative;
+}
+#countbasket{
+    position: absolute;
+    color:#fff;
+    top:-11px;
+    right: 11px;
+    background-color: #43c67a;
+    width: 0px;
+    height: 3px;;
+    border-radius: 50%;
+
+
+}
+
+/* END HEADER */
+
+/* START LANDING */
+
+
+#panel-admin{
+    padding: 8px 10px;
+    color: #fff;
+    background-color:#43c67a ;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+
+
+}
